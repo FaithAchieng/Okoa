@@ -210,7 +210,7 @@ switch(option){
 			System.out.println("8:Okoa Internet");
 			System.out.println("98:More");
 		}
-		
+		break;
 		default:
 			System.out.println("Invalid option, try again");
 }
