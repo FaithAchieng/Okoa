@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class okoa {
 
 	public static void main(String[] args) {
-System.out.println("Enter the number of the option you wish to pick");
 Scanner in=new Scanner(System.in);
 int dec1,dec2,dec3,dec4,dec5,dec6,dec7,dec8,dec9,dec10;
 System.out.println("0:Sh20(30mins,3hrs)");
@@ -20,7 +19,12 @@ int option;
 option=in.nextInt();
 switch(option){
 	case 0:
-		System.out.println("1:Accept 2:Decline 0:Back");
+		System.out.println("Exsiting Unpaid Okoa:0");
+		System.out.println("New Okoa request:20");
+		System.out.println("TOTAL DEBT will be: 20");
+		System.out.println("1:Accept");
+		System.out.println("2:Decline");
+		System.out.println("0:Back");
 		dec1=in.nextInt();
 		if(dec1==0) {
 			System.out.println("0:Sh20(30mins,3hrs)");
@@ -37,7 +41,12 @@ switch(option){
 		
 		break;
 	case 1:
-		System.out.println("1.Accept 2:Decline 0:Back");
+		System.out.println("Exsiting Unpaid Okoa:0");
+		System.out.println("New Okoa request:10");
+		System.out.println("TOTAL DEBT will be: 10");
+		System.out.println("1:Accept");
+		System.out.println("2:Decline");
+		System.out.println("0:Back");
 		dec2=in.nextInt();
 		if(dec2==0) {
 			System.out.println("0:Sh20(30mins,3hrs)");
@@ -55,7 +64,9 @@ switch(option){
 		
 		break;
 	case 2:
-		System.out.println("1.Accept 2:Decline 0:Back");
+		System.out.println("1:Accept");
+		System.out.println("2:Decline");
+		System.out.println("0:Back");
 		dec3=in.nextInt();
 		if(dec3==0) {
 			System.out.println("0:Sh20(30mins,3hrs)");
@@ -71,7 +82,9 @@ switch(option){
 		}
 		break;
 	case 3:
-	System.out.println("1.Accept 2:Decline 0:Back");
+		System.out.println("1:Accept");
+		System.out.println("2:Decline");
+		System.out.println("0:Back");
 	dec4=in.nextInt();
 	if(dec4==0) {
 		System.out.println("0:Sh20(30mins,3hrs)");
@@ -88,7 +101,9 @@ switch(option){
 	
 	break;
 	case 4:
-		System.out.println("1.Accept 2:Decline 0:Back");
+		System.out.println("1:Accept");
+		System.out.println("2:Decline");
+		System.out.println("0:Back");
 		dec5=in.nextInt();
 		if(dec5==0) {
 			System.out.println("0:Sh20(30mins,3hrs)");
@@ -104,7 +119,9 @@ switch(option){
 		}
 		break;
 	case 5:
-		System.out.println("1.Accept 2:Decline 0:Back");
+		System.out.println("1:Accept");
+		System.out.println("2:Decline");
+		System.out.println("0:Back");
 		dec6=in.nextInt();
 		if(dec6==0) {
 			System.out.println("0:Sh20(30mins,3hrs)");
@@ -120,7 +137,9 @@ switch(option){
 		}
 		break;
 	case 6:
-		System.out.println("1.Accept 2:Decline 0:Back");
+		System.out.println("1:Accept");
+		System.out.println("2:Decline");
+		System.out.println("0:Back");
 		dec7=in.nextInt();
 		if(dec7==0) {
 			System.out.println("0:Sh20(30mins,3hrs)");
@@ -137,7 +156,9 @@ switch(option){
 		
 		break;
 	case 7:
-		System.out.println("1.Accept 2:Decline 0:Back");
+		System.out.println("1:Accept");
+		System.out.println("2:Decline");
+		System.out.println("0:Back");
 		dec8=in.nextInt();
 		if(dec8==0) {
 			System.out.println("0:Sh20(30mins,3hrs)");
@@ -153,7 +174,9 @@ switch(option){
 		}
 		break;
 	case 8:
-		System.out.println("1.Accept 2:Decline 0:Back");
+		System.out.println("1:Accept");
+		System.out.println("2:Decline");
+		System.out.println("0:Back");
 		dec9=in.nextInt();
 		if(dec9==0) {
 			System.out.println("0:Sh20(30mins,3hrs)");
@@ -169,7 +192,11 @@ switch(option){
 		}
 		break;
 	case 98:
-		System.out.println("9: Okoa Minutes 10: Okoa SMS 11: Lipa Okoa #: Check Balance 0:Back");
+		System.out.println("9:Okoa Minutes");
+		System.out.println("10:Okoa SMS");
+		System.out.println("11:Lipa Okoa");
+		System.out.println("#:Check Balance");
+		System.out.println("0:Back");
 		dec10=in.nextInt();
 		if(dec10==0) {
 			System.out.println("0:Sh20(30mins,3hrs)");
@@ -185,7 +212,7 @@ switch(option){
 		}
 		
 		default:
-			System.out.println("Invalid option");
+			System.out.println("Invalid option, try again");
 }
 
 	}
